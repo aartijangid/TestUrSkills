@@ -6,5 +6,4 @@ public class PowerOfMethodDemo {
 		System.out.println(1 - (1/(Math.pow(6, 24))));
 
 	}
-
 }
