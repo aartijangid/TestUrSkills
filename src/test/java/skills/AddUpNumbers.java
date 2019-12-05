@@ -19,6 +19,7 @@ public class AddUpNumbers {
 		HashSet<Integer> hashSet = new HashSet<Integer>();
 
 		for(int i = 0; i < numberArray.length; i++) {
+
 			//	System.out.println(numberArray[i]);
 			//	System.out.println(17 - numberArray[i]);
 
