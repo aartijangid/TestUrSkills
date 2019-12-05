@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class StringPatternMatcher {
 
 	static Pattern pattern = Pattern
-			.compile("[a-zA-Z]{1}(\\s\\d+)*(\\s{1})?");
+			.compile("[a-zA-Z]{1}(\\s\\d+)*(\\s[a-zA-z]{1})?");
 
 	public static void main(String[] arg) {
 		// input for canvas
@@ -29,7 +29,7 @@ public class StringPatternMatcher {
 		}else
 			System.out.println("rectangle input pattern didnt matched");
 		
-		String bucketfill = "b 2 3";
+		String bucketfill = "b 2 3 o";
 		if(pattern.matcher(bucketfill).matches()) {
 			System.out.println("bucketfill input pattern matched");
 		}else
